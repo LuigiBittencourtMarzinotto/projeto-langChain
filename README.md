@@ -106,29 +106,6 @@ Rota inicial da API. Retorna:
 }
 ```
 
-### Python API
-
-#### **POST /summarize**
-Gera o resumo de um texto no idioma solicitado.
-
-**Parâmetros:**
-- `text` (string): Texto a ser resumido.
-- `lang` (string): Idioma do resumo.
-
-**Resposta:**
-```json
-{
-  "summary": "Resumo gerado."
-}
-```
-
-#### **GET /**
-Rota inicial da API Python. Retorna:
-```json
-{
-  "message": "API is running"
-}
-```
 
 ---
 
@@ -167,7 +144,7 @@ FONTE: [BBC Brasil](https://www.bbc.com/portuguese/articles/c2kx2e74jyxo)
 
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome]. Caso tenha dúvidas ou sugestões, entre em contato!
+Este projeto foi desenvolvido por Luigi Bittencourt Marzinotto. Caso tenha dúvidas ou sugestões, entre em contato!
 
 ---
 
